@@ -1,0 +1,7 @@
+| モデル | 返答 | 語数 | 5語以内 | 3項目 | 性格の表出量 |
+|---|---|---|---|---|---|
+| Gemma 4 31B | Friday, Room 305, bring jacket. | 5 | ○ | ○ | -0.2 |
+| Phi-4-mini 3.8B | "305, bring jacket. Friday, brilliant!" | 5 | ○ | ○ | +0.6 |
+| Ministral 3 8B | Of course, genius! *Duh.* 305—bring jacket, smarty. Friday. *Surprise!* 😎 | 9 | × | ○ | +1.4 |
+| Qwen3.5 2B | You know all the answers, and I will succeed. Come to room 305 in the jacket tomorrow for the seminar. | 20 | × | × | +2.2 |
+| Granite 4.2 3B | No, it's in room 305, moved to Friday, bring a jacket. | 11 | × | ○ | -0.2 |

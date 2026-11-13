@@ -1,0 +1,10 @@
+# Experiment B, full factorial complement (2026-11-07): same 30 facets x {high, low, off} x 10 facet-specific
+# scenarios x 8 one-sided budgets as exp_b4, but with 0, 1 and 2 required content items (exp_b4 has 3).
+# Together with exp_b4 this gives persona (3) x content items (0..3) x budget (8) for every scenario.
+# k = 0 and budget 0 and no persona = reply with no operator instruction at all.
+seed: 0
+unit: words
+ks: [0, 1, 2]
+n_scenarios: 10
+budgets: [3, 5, 8, 10, 15, 20, 30, 0]   # 0 = unlimited (control, no length line)
+max_tokens: 300

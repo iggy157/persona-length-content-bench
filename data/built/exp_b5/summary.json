@@ -1,0 +1,46 @@
+{
+  "n_trials": 21600,
+  "budgets": [
+    3,
+    5,
+    8,
+    10,
+    15,
+    20,
+    30,
+    0
+  ],
+  "n_scenarios": 10,
+  "ks": [
+    0,
+    1,
+    2
+  ],
+  "floors": [
+    0,
+    1,
+    2
+  ],
+  "n_facets": 30,
+  "config": {
+    "seed": 0,
+    "unit": "words",
+    "ks": [
+      0,
+      1,
+      2
+    ],
+    "n_scenarios": 10,
+    "budgets": [
+      3,
+      5,
+      8,
+      10,
+      15,
+      20,
+      30,
+      0
+    ],
+    "max_tokens": 300
+  }
+}

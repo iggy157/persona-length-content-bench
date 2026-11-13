@@ -1,0 +1,8 @@
+# Experiment B, facet design (2026-11-07): 30 IPIP-NEO facets x {high, low, off} x 10 facet-specific scenarios x
+# 8 one-sided budgets, 3 required content items; generated with 3 sampling seeds (temperature 0.7).
+seed: 0
+unit: words
+k: 3
+n_scenarios: 10
+budgets: [3, 5, 8, 10, 15, 20, 30, 0]   # 0 = unlimited (control, no length line)
+max_tokens: 300

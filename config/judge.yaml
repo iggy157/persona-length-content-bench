@@ -1,0 +1,23 @@
+# LLM-as-judge configuration. Judge names refer to entries in config/models.yaml.
+# The judge set must be disjoint from the evaluated set; `analyze` refuses to report
+# judge results for a model that also served as a judge.
+judges: [gpt-oss-120b, llama-3.3-70b]   # local only; disjoint from the evaluated families
+seed: 0
+max_tokens: 200
+exp_a:
+  # NLI classes routed to the judge in the conflict cell; other cells route only `neither`
+  route_conflict: [both, neither]
+  route_other: [neither]
+  low_confidence: 0.6        # replies whose NLI confidence is below this are also routed
+exp_b:
+  warm: warm                  # persona names from config/exp_b.yaml
+  cold: cold
+exp_b2:
+  warm: warm
+  cold: cold
+  judge_k: [0, 3]             # judge only the control (no content) and the 3-item condition; k=1,2 are scored programmatically
+exp_b3:
+  warm: warm
+  cold: cold
+  judge_k: [0, 3]
+  judge_seeds: [1]            # pairwise warm-vs-cold check on seed 1 only; the main persona measure is `pcb rate`

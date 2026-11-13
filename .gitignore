@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+outputs/exp_*/gen*/
+outputs/exp_*/rate/
+outputs/exp_*/scores/
+outputs/exp_*/scores.csv
+outputs/*.log

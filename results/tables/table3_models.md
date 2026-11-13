@@ -1,0 +1,17 @@
+| モデル | 系統 | 総(B) | 実効(B) | 速度(tok/s) |
+|---|---|---|---|---|
+| Gemma 4 31B | Gemma | 31.3 | 31.3 | 396 |
+| Gemma 4 12B | Gemma | 12 | 12 | 780 |
+| Gemma 4 E4B | Gemma | 8 | 4 | 1158 |
+| Gemma 4 E2B | Gemma | 5.1 | 2 | 1158 |
+| Qwen3.5 27B | Qwen | 27.8 | 27.8 | 310 |
+| Qwen3.5 9B | Qwen | 9.7 | 9.7 | 787 |
+| Qwen3.5 4B | Qwen | 4.7 | 4.7 | 879 |
+| Qwen3.5 2B | Qwen | 2.3 | 2.3 | 1672 |
+| Mistral Small 3.2 24B | Mistral | 24 | 24 | 711 |
+| Ministral 3 8B | Mistral | 8.9 | 8.9 | 1697 |
+| Ministral 3 3B | Mistral | 4.2 | 4.2 | 3279 |
+| OLMo 3 7B | OLMo | 7.3 | 7.3 | 1382 |
+| Phi-4-mini 3.8B | Phi | 3.8 | 3.8 | 2347 |
+| Granite 4.2 3B | Granite | 3.7 | 3.7 | 1731 |
+| SmolLM3 3B | SmolLM | 3.1 | 3.1 | 2179 |
